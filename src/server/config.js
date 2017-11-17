@@ -1,8 +1,7 @@
 module.exports = {
   jwtTokenExpires: 2,
   db: {
-    host: 'localhost',
-    dbName: 'etrucking'
+    url: 'mongodb://vineetkumar1987:Vineetkumar1987#@ds031581.mlab.com:31581/etrucking'
   },
   marital_status : ['single', 'married', 'divorcee', 'widowed'],
   apiPrefix: '/api/v1',
